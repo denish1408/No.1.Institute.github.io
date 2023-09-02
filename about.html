@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome-free-5.6.3-web/css/all.min.css">
+   <link rel="stylesheet" href="login.html">
+     <title>About Page</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html"> login</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+
+
+
+    <!-- -------- Content -------- -->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Our Institute is the Largest Institute in <br>The World.</h1>    
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt, quia officia iure soluta obcaecati quae. Illum impedit nobis iure! Voluptatem accusamus necessitatibus esse ut mollitia delectus autem facere. Quae saepe rerum voluptas eius sunt eum unde illo error ipsam.</p>
+                <a href="" class="hero-btn1 red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus recusandae eveniet expedita delectus
+            iusto nihil distinctio. <br> non voluptatum sint, dicta dolores officia ea exercitationem nesciunt!</p>
+
+        <div class="icons">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Create by Mr.Denish <i class="far fa-heart"></i></p>
+    </section>
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
